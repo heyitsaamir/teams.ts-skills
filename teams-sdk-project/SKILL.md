@@ -112,9 +112,9 @@ Once everything is scaffolded, tell the user to run two commands in separate ter
    npm run dev
    ```
 
-The bot is now live. To install it in Teams:
+The bot is now live. To get the install link for Teams, use the app ID returned by `teams2 app create`:
 ```bash
-teams2 app view --web
+teams2 app view <app-id> --web
 ```
 This shows a link to install the app in Teams. Click it, install the app, and start chatting with the bot.
 
