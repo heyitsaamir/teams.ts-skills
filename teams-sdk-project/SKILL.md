@@ -81,6 +81,12 @@ This command automatically:
 4. Imports the app package with manifest
 5. Writes `CLIENT_ID`, `CLIENT_SECRET`, and `TENANT_ID` to the `.env` file
 
+After creation, read the `CLIENT_ID` from the `.env` file and show the Teams install link:
+```bash
+teams2 app view <CLIENT_ID> --web
+```
+Share this install link with the user so they can install the bot in Teams later.
+
 ## Phase 3: Project Scaffolding
 
 Ask the user which template they want:
@@ -112,11 +118,7 @@ Once everything is scaffolded, tell the user to run two commands in separate ter
    npm run dev
    ```
 
-The bot is now live. To get the install link for Teams, use the app ID returned by `teams2 app create`:
-```bash
-teams2 app view <app-id> --web
-```
-This shows a link to install the app in Teams. Click it, install the app, and start chatting with the bot.
+The bot is now live. The install link was already shown after bot registration in Phase 2 — remind the user to open it in Teams to start chatting with the bot.
 
 ## Project Structure
 
