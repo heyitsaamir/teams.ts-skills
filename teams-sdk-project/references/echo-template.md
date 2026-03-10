@@ -114,7 +114,6 @@ This file should already exist from `teams2 app create --env .env`. It contains:
 ```
 CLIENT_ID=<from teams2>
 CLIENT_SECRET=<from teams2>
-TENANT_ID=<from teams2>
 ```
 
 No additional environment variables are needed for the echo bot.

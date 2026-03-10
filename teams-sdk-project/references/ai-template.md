@@ -162,7 +162,6 @@ This file should already exist from `teams2 app create --env .env`. The AI templ
 ```
 CLIENT_ID=<from teams2>
 CLIENT_SECRET=<from teams2>
-TENANT_ID=<from teams2>
 
 # For OpenAI
 OPENAI_API_KEY=<user provides>

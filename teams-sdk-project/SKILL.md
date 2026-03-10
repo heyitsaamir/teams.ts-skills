@@ -79,7 +79,7 @@ This command automatically:
 2. Generates a client secret
 3. Registers the bot in the Teams Developer Portal
 4. Imports the app package with manifest
-5. Writes `CLIENT_ID`, `CLIENT_SECRET`, and `TENANT_ID` to the `.env` file
+5. Writes `CLIENT_ID` and `CLIENT_SECRET` to the `.env` file
 
 After creation, read the `CLIENT_ID` from the `.env` file and show the Teams install link:
 ```bash
@@ -141,7 +141,6 @@ Both templates produce this structure:
 |----------|-------------|--------|
 | `CLIENT_ID` | Azure AD app client ID | `teams2 app create` |
 | `CLIENT_SECRET` | Azure AD app client secret | `teams2 app create` |
-| `TENANT_ID` | Azure AD tenant ID | `teams2 app create` |
 | `PORT` | Server port (default: 3978) | Optional |
 
 ### AI bot (additional)
