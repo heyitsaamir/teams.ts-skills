@@ -1,0 +1,23 @@
+{
+  "skill_name": "teams-sdk-project",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to create a simple Teams bot that echoes back what users say. I already have a Microsoft 365 developer account. Can you help me set everything up from scratch?",
+      "expected_output": "Should walk through dev tunnel setup, teams2 CLI install + login + app create, then scaffold an echo bot project with all files (package.json, tsconfig, src/index.ts, manifest, .env), and explain how to run it.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need to build an AI-powered Teams bot that uses Azure OpenAI to have conversations with my team. I want it to stream responses and remember conversation history. Set it up for me.",
+      "expected_output": "Should guide through full setup including dev tunnel, teams2 registration, then scaffold the AI template with Azure OpenAI configuration (not regular OpenAI), streaming, and LocalStorage for conversation memory. Should ask for Azure OpenAI credentials.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I already have a dev tunnel running at https://abc123.devtunnels.ms and I've already installed the teams2 CLI. I just need to register a bot and scaffold a project. Let's do an echo bot called 'support-helper'.",
+      "expected_output": "Should skip tunnel and CLI install steps, go straight to teams2 login + app create with the provided tunnel URL, then scaffold an echo bot named 'support-helper' with the correct project name in package.json and manifest.",
+      "files": []
+    }
+  ]
+}
