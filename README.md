@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is not affiliated with, endorsed by, or sponsored by Microsoft in any way. Microsoft Teams and related trademarks are the property of Microsoft Corporation.
+
 # teams.ts-skills
 
 Agent skills for building Microsoft Teams bots with the Teams SDK.
@@ -19,6 +22,3 @@ Scaffolds a complete Teams SDK bot project in TypeScript — from dev tunnel set
 npx skills add heyitsaamir/teams.ts-skills
 ```
 
-## Disclaimer
-
-This project is not affiliated with, endorsed by, or sponsored by Microsoft in any way. Microsoft Teams and related trademarks are the property of Microsoft Corporation.
