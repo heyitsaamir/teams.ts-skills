@@ -18,3 +18,7 @@ Scaffolds a complete Teams SDK bot project in TypeScript — from dev tunnel set
 ```bash
 npx skills add heyitsaamir/teams.ts-skills
 ```
+
+## Disclaimer
+
+This project is not affiliated with, endorsed by, or sponsored by Microsoft in any way. Microsoft Teams and related trademarks are the property of Microsoft Corporation.
